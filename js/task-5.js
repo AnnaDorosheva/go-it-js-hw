@@ -13,64 +13,67 @@
 // Индия - 80 кредитов
 // Ямайка - 120 кредитов
 
-const country1 = "китай";
-const country2 = "южная америка";
-const country3 = "австралия";
-const country4 = "индия";
-const country5 = "ямайка";
+// -------------------------------------------------------------------------------------
 
-const pr1 = 100;
-const pr2 = 250;
-const pr3 = 170;
-const pr4 = 80;
-const pr5 = 120;
 
-const userInput = prompt("Укажите страну доставки");
+// const country1 = "китай";
+// const country2 = "южная америка";
+// const country3 = "австралия";
+// const country4 = "индия";
+// const country5 = "ямайка";
 
-if (userInput === null) {
-  console.log("Вы нажали отмену, хорошего дня!");
-} else {
-  const userInputLowerCase = userInput.toLowerCase();
+// const pr1 = 100;
+// const pr2 = 250;
+// const pr3 = 170;
+// const pr4 = 80;
+// const pr5 = 120;
 
-  let price;
-  let country;
-  let haveCountry;
+// const userInput = prompt("Укажите страну доставки");
 
-  switch (userInputLowerCase) {
-    case country1:
-      price = pr1;
-      country = "Китай";
-      haveCountry = true;
-      break;
+// if (userInput === null) {
+//   console.log("Вы нажали отмену, хорошего дня!");
+// } else {
+//   const userInputLowerCase = userInput.toLowerCase();
 
-    case country2:
-      price = pr2;
-      country = "Южная Америка";
-      haveCountry = true;
-      break;
+//   let price;
+//   let country;
+//   let haveCountry;
 
-    case country3:
-      price = pr3;
-      country = "Австралия";
-      haveCountry = true;
-      break;
+//   switch (userInputLowerCase) {
+//     case country1:
+//       price = pr1;
+//       country = "Китай";
+//       haveCountry = true;
+//       break;
 
-    case country4:
-      price = pr4;
-      country = "Индия";
-      haveCountry = true;
-      break;
+//     case country2:
+//       price = pr2;
+//       country = "Южная Америка";
+//       haveCountry = true;
+//       break;
 
-    case country5:
-      price = pr5;
-      country = "Ямайка";
-      haveCountry = true;
-      break;
+//     case country3:
+//       price = pr3;
+//       country = "Австралия";
+//       haveCountry = true;
+//       break;
 
-    default:
-      alert("В вашей стране доставка не доступна");
-  }
-  if (haveCountry) {
-    console.log(`Доставка в ${country} будет сторить ${price}`);
-  }
-}
+//     case country4:
+//       price = pr4;
+//       country = "Индия";
+//       haveCountry = true;
+//       break;
+
+//     case country5:
+//       price = pr5;
+//       country = "Ямайка";
+//       haveCountry = true;
+//       break;
+
+//     default:
+//       alert("В вашей стране доставка не доступна");
+//   }
+//   if (haveCountry) {
+//     console.log(`Доставка в ${country} будет сторить ${price}`);
+//   }
+// }
