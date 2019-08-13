@@ -9,12 +9,12 @@
 
 // -----------------------------------------------------------------------------------------
 
-// const total = 100;
-// const ordered = 50;
+const total = 100;
+const ordered = 50;
 
-// const total = 100;
-// const ordered = 50;
+const total = 100;
+const ordered = 50;
 
-// const massege = total > ordered ? "Заказ оформлен, с вами свяжется менеджер" : "На складе недостаточно твоаров!";
+const massege = total > ordered ? "Заказ оформлен, с вами свяжется менеджер" : "На складе недостаточно твоаров!";
 
-// console.log(massege);
+console.log(massege);
