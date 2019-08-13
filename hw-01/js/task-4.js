@@ -11,26 +11,26 @@
 // если сумма к оплате превышает количество кредитов на счету, выводи в консоль сообщение 'Недостаточно средств на счету!'.
 // в противном случае необходимо посчитать остаток кредитов на счету и вывести сообщение 'Вы купили [число] дроидов, на счету осталось [число] кредитов.'.
 
-// let credits = 23580;
+let credits = 23580;
 
-// const pricePerDroid = 3000;
+const pricePerDroid = 3000;
 
-// let totalPrice;
-// let chanch;
+let totalPrice;
+let chanch;
 
 
-// const userOrder = prompt('Введите желаемое колличество дроидов');
+const userOrder = prompt('Введите желаемое колличество дроидов');
 
-// if (userOrder === null) {
-//     console.log('Отменено пользователем!');
-// } else {
-//     totalPrice = userOrder * pricePerDroid;
-//     console.log(totalPrice); {
-//         if (totalPrice > credits) {
-// console.log('Недостаточно средств на счету!');
-//         }  else {
-//          chanch = credits - totalPrice;
-// console.log(`Вы купили ${userOrder} дроидов, на счету осталось ${chanch}`);
-//         }
-//     }
-// }
+if (userOrder === null) {
+    console.log('Отменено пользователем!');
+} else {
+    totalPrice = userOrder * pricePerDroid;
+    console.log(totalPrice); {
+        if (totalPrice > credits) {
+console.log('Недостаточно средств на счету!');
+        }  else {
+         chanch = credits - totalPrice;
+console.log(`Вы купили ${userOrder} дроидов, на счету осталось ${chanch}`);
+        }
+    }
+}
