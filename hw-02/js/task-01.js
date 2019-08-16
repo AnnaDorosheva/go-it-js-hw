@@ -26,7 +26,8 @@
 // ---------------------------------------------------------------------------------
 
 // const users = ['Mango', 'Poly', 'Ajax', 'Chelsey'];
-// users.shift([0]);
+// // исправила
+// users.shift();
 // console.log(users);
 
 // users.pop();

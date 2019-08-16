@@ -23,13 +23,11 @@
 
 // -------------------------------------------------------------------
 
-// const calculateEngravingPrice = function(message, pricePerWord) {
-// const newMass = message.split(' ');
-// let total = 0;
 
-// total = newMass.length * pricePerWord;
+// переписала.. спасибо.. правда не оч понимаю как оно работает без return
+// const calculateEngravingPrice = (message, pricePerWord) => message.split(' ').length * pricePerWord;
 
-// return total;
-// }
+// console.log(calculateEngravingPrice('Donec orci lectus aliquam est gvf heg hsgf ahsgd hgd hgd', 20));
 // console.log(calculateEngravingPrice('Donec orci lectus aliquam est', 40));
 // console.log(calculateEngravingPrice('Donec orci lectus aliquam est', 20));
+
