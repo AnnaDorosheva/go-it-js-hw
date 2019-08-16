@@ -10,11 +10,11 @@
 // console.log(countProps({ mail: 'poly@mail.com', isOnline: true, score: 500 })); // 3
 
 // -----------------------------------------------------------------------
-
+// //  переписала на keys
 // const countProps = function (obj) {
   
-//     const objValues = Object.values(obj).length;
-//     return objValues;
+//     const objKeys = Object.keys(obj).length;
+//     return objKeys;
     
 // }
 

@@ -79,6 +79,7 @@
 //   lorence: 299
 // };
 
+
 // let best = 0;
 
 // const arrNew = Object.entries(emp);
@@ -95,3 +96,31 @@
 // }
 
 // console.log(best);
+
+
+// ---------------------------------------------------
+// Вариант Генадия... OMG...я сломалась..  
+// const emp = {
+//     ann: 29,
+//     david: 35,
+//     helen: 111,
+//     lorence: 299
+//   };
+  
+//   let best;
+
+// // for (const prop in obj) {
+//     // if( obj.hasOwnProperty( prop ) ) {
+//         const findBestEmployee = employees => {
+//             const entries = Object.entries(employees);
+//             if (entries.length === 0) return 0;
+//             let best = entries[0][0];
+//             if (entries.length === 1) return best;
+//             for (let i = 1; i < entries.length; i += 1) {
+//             best = entries[i][1] > employees[best] ? entries[i][0] : best;
+//             }
+//             return best;
+//             };
+//     // }
+//     // }
+//     console.log(best);

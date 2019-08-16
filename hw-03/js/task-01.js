@@ -33,8 +33,8 @@
 
 // // выводит содержимое объекта user в формате ключ:значение используя Object.keys() и for...of
 // const showObject = function (obj) {
-
-//   for (let key in obj) {
+// const newObj = Object.keys(obj);
+//   for (let key of newObj) {
 //     console.log(`${key}: ${obj[key]}`);
 //   }
 // };
