@@ -8,13 +8,13 @@
 
 // ---------------------------------------------------
 
-let input;
-let total = 0;
+// let input;
+// let total = 0;
 
-do { 
-    input = prompt('Введите произвольное число');
-    const userInput = Number(input);
-    total += userInput;
-} while (input !== null);
+// do { 
+//     input = prompt('Введите произвольное число');
+//     const userInput = Number(input);
+//     total += userInput;
+// } while (input !== null && Number.isNaN(input));
 
-total = alert(`Общая сумма чисел равна ${total}`);
+// total = alert(`Общая сумма чисел равна ${total}`);

@@ -16,64 +16,70 @@
 // -------------------------------------------------------------------------------------
 
 
-const country1 = "китай";
-const country2 = "южная америка";
-const country3 = "австралия";
-const country4 = "индия";
-const country5 = "ямайка";
+// const country1 = "Китай";
+// const country2 = "Чили";
+// const country3 = "Австралия";
+// const country4 = "Индия";
+// const country5 = "Ямайка";
 
-const pr1 = 100;
-const pr2 = 250;
-const pr3 = 170;
-const pr4 = 80;
-const pr5 = 120;
+// const pr1 = 100;
+// const pr2 = 250;
+// const pr3 = 170;
+// const pr4 = 80;
+// const pr5 = 120;
 
-const userInput = prompt("Укажите страну доставки");
+// const userInput = prompt("Укажите страну доставки");
+// let userInputLowerCase;
 
-if (userInput === null) {
-  console.log("Вы нажали отмену, хорошего дня!");
-} else {
-  const userInputLowerCase = userInput.toLowerCase();
+// if (userInput === null) {
+//   console.log("Вы нажали отмену, хорошего дня!");
+// } else {
 
-  let price;
-  let country;
-  let haveCountry;
+// //НАПИСАЛА->
+// userInputLowerCase = userInput[0].toUpperCase() + userInput.slice(1).toLowerCase();
 
-  switch (userInputLowerCase) {
-    case country1:
-      price = pr1;
-      country = "Китай";
-      haveCountry = true;
-      break;
+//   let price;
+//   let country;
+//   let haveCountry;
 
-    case country2:
-      price = pr2;
-      country = "Южная Америка";
-      haveCountry = true;
-      break;
+//   switch (userInputLowerCase) {
+//     case "Китай":
+//       price = pr1;
+//       country = country1;
+//       haveCountry = true;
+//       break;
 
-    case country3:
-      price = pr3;
-      country = "Австралия";
-      haveCountry = true;
-      break;
+//     case "Чили":
+//       price = pr2;
+//       country = country2;
+//       haveCountry = true;
+//       break;
 
-    case country4:
-      price = pr4;
-      country = "Индия";
-      haveCountry = true;
-      break;
+//     case "Австралия":
+//       price = pr3;
+//       country = country3;
+//       haveCountry = true;
+//       break;
 
-    case country5:
-      price = pr5;
-      country = "Ямайка";
-      haveCountry = true;
-      break;
+//     case "Индия":
+//       price = pr4;
+//       country = country4;
+//       haveCountry = true;
+//       break;
 
-    default:
-      alert("В вашей стране доставка не доступна");
-  }
-  if (haveCountry) {
-    console.log(`Доставка в ${country} будет сторить ${price}`);
-  }
-}
+//     case "Ямайка":
+//       price = pr5;
+//       country = country5;
+//       haveCountry = true;
+//       break;
+
+//     default:
+//       alert("В вашей стране доставка не доступна");
+//   }
+//   if (haveCountry) {
+//     console.log(`Доставка в ${country} будет сторить ${price}`);
+//   }
+// }
+
+
+// userChoise = userChoise[0].toUpperCase() + userChoise.slice(1).toLowerCase();
