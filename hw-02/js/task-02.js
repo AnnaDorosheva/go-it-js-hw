@@ -11,18 +11,17 @@
 // logItems([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
 
 // --------------------------------------------------------
-// исправила
-// const logItems = function (arr) {
-//     let i = 0;
 
-//     while (i < arr.length) {
-//         console.log(`${i + 1} - ${arr[i]}`);
-//         i += 1;
-//     }
-//     return i;
-// }
+const logItems = function (arr) {
+    let i = 0;
 
-// logItems([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
+    while (i < arr.length) {
+        console.log(`${i + 1} - ${arr[i]}`);
+        i += 1;
+    }
+}
 
-// logItems(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);
+logItems([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
+
+logItems(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);
 
