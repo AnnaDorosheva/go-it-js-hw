@@ -1,6 +1,5 @@
 'use strict'
 
-// Исправь ошибки которые будут в консоли, чтобы скрипт заработал.
 
 // const inventory = {
 //   items: ['Монорельса', 'Фильтр'],
@@ -26,14 +25,7 @@
 
 
 
-// //   const boundInventoryAdd = inventory.add.bind(inventory);
-// //   invokeInventoryOperation('Аптечка', boundInventoryAdd);
-// //   // Invoking add opeartion on Аптечка
-// //   console.log(inventory.items); // ['Монорельса', 'Фильтр', 'Аптечка']
-// //   const boundInventoryRemove = inventory.remove.bind(inventory);
-// //   invokeInventoryOperation('Фильтр', boundInventoryRemove);
-// //   // Invoking remove opeartion on Фильтр
-// //   console.log(inventory.items); // ['Монорельса', 'Аптечка']
+
   
   
   
